@@ -1,0 +1,43 @@
+.timer-box {
+  text-align: center;
+}
+
+.timer-box p {
+  font-size: 48px;
+}
+
+button {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: lightsalmon;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 0 6px salmon;
+          box-shadow: 0 6px salmon;
+  opacity: 0.8;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  top: 6px;
+}
+
+button:focus {
+  outline: 0;
+}
+/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,38 @@
+.timer-box {
+  text-align: center;
+
+  & p {
+    font-size: 48px;
+  }
+}
+
+button {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: lightsalmon;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: 0.3s;
+  box-shadow: 0 6px salmon;
+  opacity: 0.8;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  &:active {
+    box-shadow: none;
+    position: relative;
+    top: 6px;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
